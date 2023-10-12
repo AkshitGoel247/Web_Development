@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    /* background-image: url("Images/index_bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+/* navigation bar */
+.navigationBar{
+    padding-top: 16px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* apple logo */
+.logo-div{
+    height: 35px;
+    width: 25px;
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(Images/apple.svg);
+    height: 26px;
+    width: 18px;
+    color: white;
+}
+
+/* Store div */
+.store-div{
+    height: 35px;
+    width: 57px;
+    text-align: center;
+    align-items: center;
+}
+#store-paragraph{
+    font-size: 1rem;
+}
+
+/* Mac div */
+.mac-div{
+    height: 35px;
+    width: 57px;
+    text-align: center;
+    align-items: center;
+}
+#mac-paragraph{
+    font-size: 1rem;
+}
+
+/* iPad div */
+.iPad-div{
+    height: 35px;
+    width: 57px;
+    text-align: center;
+    align-items: center;
+}
+#iPad-paragraph{
+    font-size: 1rem;
+}
+
+/* iPhone div */
+.iPhone-div{
+    height: 35px;
+    width: 57px;
+    text-align: center;
+    align-items: center;
+}
+#iPhone-paragraph{
+    font-size: 1rem;
+}
+
+/* Watch div */
+.Watch-div{
+    height: 35px;
+    width: 57px;
+    text-align: center;
+    align-items: center;
+}
+#Watch-paragraph{
+    font-size: 1rem;
+}
+
+/* Airpods div */
+.airPods-div{
+    height: 35px;
+    width: 57px;
+    text-align: center;
+    align-items: center;
+}
+#airPods-paragraph{
+    font-size: 1rem;
+}
+
+/* Tv & Home div */
+.Tv-Home-div{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+#Tv-Home-paragraph{
+    font-size: 1rem;
+}
+
+/* Entertainment div */
+.Entertainment-div{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+#Entertainment-paragraph{
+    font-size: 1rem;
+}
+
+/* Accessories div */
+.Accessories-div{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+#Accessories-paragraph{
+    font-size: 1rem;
+}
+
+
+/* Support div */
+.Support-div{
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+}
+#Support-paragraph{
+    font-size: 1rem;
+}
+
+
+/* Search menu */
+.nav-search{
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    align-items: center;    
+}
+.search-icon{
+    padding-top: 3px; 
+    padding-left: 10%;
+    width:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+/* Shopping bag menu */
+.nav-shoppingBag{
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    align-items: center;    
+}
+.shoppingBag-icon{
+    padding-top: 3px;
+    width:20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+/* ------------------------------- main body --------------------------------- */
+
+.mainImage{
+    margin-top: 0.245px;
+    width: 100%;
+    opacity: 1;
+    height: 800px;
+}
