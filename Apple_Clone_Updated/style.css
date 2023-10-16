@@ -10,11 +10,15 @@ body, html{
     height: 100%;
     color: #fff;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    scroll-behavior: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 a{
     text-decoration: none;
-    color: #fff;
 }
 
 /* ------------------------------------------------------------------------------------------ */
@@ -64,6 +68,7 @@ a{
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
+
 
 #headingPage1 h2{
     font-size: 28px;
@@ -166,7 +171,7 @@ a{
 }
 #page4LeftHeading{
     position: relative;
-    height: 100%;
+    height: 90%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -199,10 +204,10 @@ a{
 
 #page4LeftHeading a{
     margin-top: 50%;
-    font-size: 20px;
+    font-size: 17px;
     margin-right: 35px;
     text-decoration: none;
-    color: #1285ea;
+    color: #2997ff;;
 }
 
 
@@ -218,7 +223,7 @@ a{
 
 #page4RightHeading{
     position: relative;
-    height: 100%;
+    height: 90%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -246,13 +251,385 @@ a{
 
 #page4RightHeading h2{
     font-weight: 300;
+    font-weight: 10px;
     margin-bottom: 5px;
 }
 
 #page4RightHeading a{
-    margin-top: 50px;
-    font-size: 20px;
+    font-size: 17px;
     margin-right: 25px;
     text-decoration: none;
-    color: #020efaca;    
+    color: #06c; 
+    font-weight: 400;   
+}
+
+/* ------------------------------------------------------------------------------------------------*/
+
+#page5{
+    /* margin-top: 10px; */
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#page5Left{
+    height: 90%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page5LeftHeading{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#page5LeftHeading h1{
+    font-size: 40px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 60px;
+    color: #000;
+}
+
+#page5LeftHeading h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1.8px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#page5LeftHeading img{
+    height: 26px;
+    width: 26px;
+    margin-top: 0px;
+}
+
+#page5LeftHeading a{
+    margin-top: 50%;
+    font-size: 17px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 400;
+}
+
+
+#page5Right{
+    height: 90%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg);
+    color: #000;  
+    background-position: center;
+    background-size: cover;  
+}
+
+#page5RightHeading{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#page5RightHeading h1{
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#page5RightHeading h2{
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 2px;
+    /* margin-top: 2px; */
+    margin-bottom: 12px;
+}
+
+#page5RightHeading a{
+    /* margin-top: 50px; */
+    font-size: 17px;
+    margin-right: 30px;
+
+    color: #2997ff;;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+#page6{
+    /* margin-top: 10px; */
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#page6LeftHeading{
+    position: relative;
+    height: 100%;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://www.apple.com/ca/home/promos/apple-small-business/images/promo__sw58lbodkmqq_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#appleFor{
+    margin-top: 50px;
+}
+
+#page6LeftHeading h1{
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    font-size: 40px;
+}
+
+#page6LeftHeading h2{
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#page6LeftHeading a{
+    font-size: 17px;
+    color: #2997ff;
+}
+
+
+#page6RightHeading{
+    position: relative;
+    height: 100%;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #000;
+}
+
+#page6RightHeading h1 i{
+    font-size: 36px;
+}
+
+#page6RightHeading h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#page6RightHeading h2{
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    opacity: 0.79;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+#page6RightHeading h3{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .79;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+}
+
+#page6RightHeading a{
+    font-size: 17px;
+    color: #0066cc;
+    font-weight: 400;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+#footer{
+    margin-top: 10px;
+    height: 85%;
+    width: 100%;
+    background-color: #f5f5f7;
+    /* background-color: red; */
+}
+
+#footerPara{
+    color: #000;
+    max-width: 80%;
+    font-weight: 400;
+    font-size: 13.2px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#footerPara p{
+    opacity: 0.50;
+    padding-top: 30px;
+}
+
+#lineDiv{
+    /* align-items: center; */
+    width: 90%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    /* margin-left: 150px; */
+    height: 1px;
+    background-color: grey;
+}
+
+#ulLinks{
+    opacity: 1;
+    display: flex;
+    font-size: 11px;
+    /* margin-top: 20px; */
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+/* ------------------ */
+#shopNLearn_AppleWallet{
+    padding: 20px;
+    padding-left: 2px;
+}
+
+#shopNLearn3{
+    padding-bottom: 5px;
+}
+
+#appleWallet{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#shopNLearn_AppleWallet li{
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 1px;
+    text-decoration: none;
+}
+
+/* ------------------ */
+#Account_Entertainment{
+    padding: 20px;
+}
+
+#account{
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#entertainment{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+
+#Account_Entertainment li{
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+/* --------------------- */
+
+#AppleStore{
+    padding: 20px;
+}
+
+#appleStore{
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#AppleStore li{
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+/* --------------------- */
+
+#Business_Education_HealthCare{
+    padding: 20px;
+}
+
+#business{
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#education{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#healthCare{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#business li, #healthCare li, #education li{
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+/* -------------------- */
+
+#AppleValues_AboutApple{
+    padding: 20px;
+}
+
+#AppleValues{
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#AboutApples{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+}
+
+#AppleValues li, #AboutApples li{
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+h3{
+    opacity: 0.8;
+}
+
+li{
+    opacity: 0.6;
+}
+
+#findStore, #retailers{
+    opacity: 1;
+    color: blue;
+    text-decoration: underline;
 }
