@@ -1,0 +1,328 @@
+
+@import url(https://pave.ai/assets/fonts/HelveticaNowText-Regular.woff2);
+
+
+
+
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* ----------------------------------- Navigation ------------------------------------- */
+#nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    color: #fff;
+    padding-top: 0%;    
+}
+/* h1 */
+#nav h1{
+    padding: 0 10vw 0 1vw;
+}
+
+/* nav headings 1 */
+#navHeadings{
+    display: flex;
+    /* background-color: green; */
+}
+#navHeadings h1{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 1vmax;
+}
+
+/* menu bar */
+#nav svg{
+    margin: 0 5vmax 0 10vmax;
+    position: absolute;
+    right: 20vmax;
+}
+
+/* nav headings 2 */
+#navHeadings2{
+    display: flex;
+    /* background-color: blue; */
+    position: absolute;
+    right: 1vmax;
+}
+#navHeadings2 h1{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 1vmax;
+}
+
+/* ----------------------------------- Page 1 ------------------------------------- */
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#headingOverVideo{
+    height: 20vmax;
+    max-width: 50vmax;
+    /* background-color: red; */
+    position: absolute;
+    left: 3vmax;
+    bottom: 11vmax;
+    font-size: 65px;
+    word-spacing: 10%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tryPave{
+    position: absolute;
+    left: 1.5vmax;
+    bottom: 1.5vmax;
+    /* background-color: red; */
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+
+/* ----------------------------------- Page 2 ------------------------------------- */
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+/* page2Written */
+#page2Written{
+    height: 49%;
+    width: 100%;
+    display: flex;
+}
+#page2WrittenLeft{
+    height: 50%;
+    width: 50%;
+    /* background-color: red; */
+}
+#page2WrittenLeft p{
+    max-width: 38vmax;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 15vh 0 0 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page2WrittenRight{
+    height: 50%;
+    width: 50%;
+    /* background-color: green; */
+}
+#page2WrittenRight p{
+    max-width: 45vmax;
+    font-size: 28px;
+    font-weight: 200;
+    margin: 15vh 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page2Image1Div{
+    height: 23vmax;
+    width: 40vmax;
+    background-color: green;
+    margin: 0 0 0 1vmax;
+}
+#homePageImage1{
+    height: 23vmax;
+    width: 40vmax;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------------- Page 3 ------------------------------------- */
+#page3{
+    height: auto;
+    width: 100%;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page3leftDiv{
+    height: auto;
+    width: 51%;
+    /* background-color: red; */
+}
+#technologyPara1{
+    height: 15vmax;
+    width: 25vmax;
+    /* background-color: yellow; */
+    font-size: 33px;
+    position: relative;
+    top: 40%;
+    left: 3%;
+}
+#technologyPara2{
+    height: 8vmax;
+    max-width: 20vmax;
+    font-weight: 100;
+    /* background-color: green; */
+    font-size: 15px;
+    position: relative;
+    top: 45%;
+    left: 57%;
+}
+
+#page3rightDiv{
+    height: 100%;
+    width: 49%;
+    background-color: orange;
+}
+/* home tech image */
+#homeTechnologyImage{
+    height: 100%;
+    width: 100%;
+}
+
+
+#centerTextHeading{
+    height: 5vmax;
+    margin: 15vh 0 0 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#sectionTech, #sectionSoln, #sectionCompany{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+}
+
+
+
+
+
+/* ----------------------------------- Footer ------------------------------------- */
+footer{
+    height: 57%;
+    width: 100%;
+    background-color: rgb(216, 210, 210);
+    /* bottom: 0%; */
+    margin-top: 5vmax;
+    margin-bottom: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer Left */
+#footerLeft{
+    height: 70%;
+    width: 50%;
+    /* background-color: green; */
+    /* display: flex; */
+}
+
+#paveTrademarks{
+    display: flex;
+}
+
+#footerLeft ul li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 100;
+}
+#paveTrademarks h1{
+    position: relative;
+    font-size: 100px;
+    font-weight: 700;
+    margin-left: 2vmax;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#paveTrademarks h4{
+    position: relative;
+    left: 10%;
+    font-weight: 100;
+    margin-top: 20%;
+    opacity: 0.75;
+}
+
+/* footer Right */
+#footerRight{
+    height: 70%;
+    width: 50%;
+    /* background-color: red; */
+}
+#message{
+    max-width: 20vmax;
+    padding: 2vmax;
+    font-size: 25px;
+    /* background-color: brown; */
+}
+#topMessage{
+    margin-top: 1vmax;
+}
+#message h5{
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    opacity: 0.5;
+}
+#message p{
+    font-size: 25px;
+    margin: 0;
+}
+#letsTalkButton{
+    background-color: transparent;
+    margin: 3%;
+    opacity: 0.5;
+    margin-top: 0%;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-transform: uppercase;
+    height: 5vmax;
+    width: 94%;
+    position: relative;
+}
+#footerRightBottom{
+    /* background-color: green; */
+    height: 7vmax;
+    width: 100%;
+    position: relative;
+    top: 14%;
+    display: flex;
+}
+#footerRightBottom ul li{
+    list-style: none;
+    padding: 0.7vh;
+    font-weight: 100;
+    opacity: 0.75;
+}
+#footerRightBottom p{
+    position: relative;
+    top: 62%;
+    left: 45%;
+    opacity: 0.75;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
